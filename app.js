@@ -14,6 +14,12 @@ app.get('/', (req, res)=>{
 
 app.get('/carrito', (req, res) => res.sendFile(path.join(viewsPath, 'carrito.html')));
 
+app.get('/detalle', (req, res) => res.sendFile(path.join(viewsPath, 'detalle.html')));
+
+app.get('/loggin', (req, res) => res.sendFile(path.join(viewsPath, 'loggin.html')));
+
+app.get('/registro', (req, res) => res.sendFile(path.join(viewsPath, 'registro.html')));
+
 app.listen (process.env.PORT || 3001, ()=>{
     console.log('Servidor funcionando bien');
 });
