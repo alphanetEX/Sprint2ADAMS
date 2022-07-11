@@ -200,6 +200,111 @@ article div.main-article h4{
 }
 
 
+/* carrito */
+
+main{
+    padding: 10px;
+}
+
+.carrito{
+padding: 10px;
+}
+
+h4 {
+    display: flex;
+    text-align: center;
+    color:#1a4809
+}
+
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+
+.carrito {
+    overflow-x: auto;
+}
+
+.cart-table thead td {
+    background-color: #2F552A;
+    color: white;
+    font-weight: 400;
+    padding: 5px 0;
+    font-size: 15px;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align:middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+}
+
+td {
+    display: table-cell;
+    vertical-align: text;
+    color:#1a4809
+}
+
+table {
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+    width: 100%;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.cart-table-image img {
+    width: 90%;
+    height: 100px;
+    padding: 2px 0 2px 0;
+    object-fit: contain;
+}
+
+.product-quantity{
+    width: 40%;
+    justify-content: center;
+}
+
+div .cart-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.cart-bottom .total-price-container {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #2F552A;
+}
+
+.cart-bottom .confirm-cart button{
+    padding: 5px;
+    background-color:#2F552A;
+    color: #FFF;
+    border: none;
+    border-radius: 6px;
+    transition: all 0.5s;
+    position: relative;
+    left: 4em;
+}
+
+
 /* FOOTER */
 
 footer {
@@ -260,11 +365,6 @@ footer p {
 }
 
 
-
-
-
-  /*FOOTER*/
-
   footer {
     display: flex;
     justify-content: space-evenly;
@@ -283,6 +383,8 @@ footer section p {
 footer section p.copyright {
     text-align: center;
 }
+
+
 
 
 
@@ -324,6 +426,14 @@ footer section p.copyright {
         color:#1a4809;
         text-align: center;
     }
+
+    /*carrito */
+
+.cart-bottom .confirm-cart button{
+    position: relative;
+    left: 34em;
+
+}
 
 
 }
@@ -370,4 +480,11 @@ footer section p.copyright {
         justify-content: space-between;
         align-items: flex-start;
     }
+
+    /*carrito*/
+.cart-bottom .confirm-cart button{
+    position: relative;
+    left: 47em;
+}
+
 } 

@@ -12,6 +12,8 @@ app.get('/', (req, res)=>{
     res.sendFile(path.join( viewsPath, 'home.html'));
 });
 
-app.listen (process.env.PORT || 3000, ()=>{
+app.get('/carrito', (req, res) => res.sendFile(path.join(viewsPath, 'carrito.html')));
+
+app.listen (process.env.PORT || 3001, ()=>{
     console.log('Servidor funcionando bien');
 });
