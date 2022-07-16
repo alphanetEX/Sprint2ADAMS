@@ -204,10 +204,13 @@ article div.main-article h4{
 
 main{
     padding: 10px;
+    margin-top: 3em;
+    margin: 3em;
 }
 
 .carrito{
 padding: 10px;
+min-height: fit-content;
 }
 
 h4 {
@@ -554,7 +557,7 @@ footer p {
 }
 
 .copyright {
-    text-align: left;
+    text-align: center;
     padding: 20px 10px 15px;
     margin: 0;
     color: #2F552A;
@@ -601,6 +604,7 @@ footer section p.copyright {
     main section div article {
         width: 45%;
         transition: box-shadow 600ms;
+        margin-right: 10px;
     }
 
     main section div article:hover {
@@ -671,6 +675,7 @@ footer section p.copyright {
         margin-right: 5%;
         margin-left: 0%;
     }
+
 }
 
 
