@@ -568,6 +568,7 @@ footer p {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    padding-top: 15px;
 }
 
 footer section {
